@@ -36,6 +36,21 @@
       z-index: 100;
     }
 
+    /* LOGO — LEFT SIDE */
+    .logo-image {
+      position: absolute;
+      left: 2rem;
+      top: 50%;
+
+      transform: translateY(-50%);
+    }
+
+    .logo-image img {
+      height: 100px;
+      width: auto;
+      display: block;
+    }
+
     /* ATOM STRATEGIES — DEAD CENTER */
     .logo-title {
       position: absolute;
@@ -85,10 +100,17 @@
 
   <nav>
 
+    <!-- LOGO ON LEFT -->
+    <a href="index.html" class="logo-image">
+      <img src="atomlogo.png" alt="Atom Strategies logo">
+    </a>
+
+    <!-- TITLE IN CENTER -->
     <h1 class="logo-title">
       Atom Strategies
     </h1>
 
+    <!-- NAVIGATION ON RIGHT -->
     <ul class="nav-links">
 
       <li>
