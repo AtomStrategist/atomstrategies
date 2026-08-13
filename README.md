@@ -1,2 +1,2 @@
-# atomstrategies.com
+# atomstrategies
 This is my business website
